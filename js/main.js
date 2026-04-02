@@ -31,7 +31,10 @@ const mobileMenu = document.getElementById('mobile-menu');
 hamburger?.addEventListener('click', () => {
     hamburger.classList.toggle('open');
     mobileMenu?.classList.toggle('open');
-    document.body.style.overflow = mobileMenu?.classList.contains('open') ? 'hidden' : '';
+    const isOpen = mobileMenu?.classList.contains('open');
+    document.body.classList.toggle('mobile-nav-open', isOpen);
+    document.body.style.overflow = isOpen ? 'hidden' : '';
+    document.documentElement.style.overflow = isOpen ? 'hidden' : '';
 });
 
 // Close mobile menu on link click
@@ -39,7 +42,9 @@ document.querySelectorAll('.mobile-nav-link, .mobile-menu .btn-primary').forEach
     link.addEventListener('click', () => {
         hamburger?.classList.remove('open');
         mobileMenu?.classList.remove('open');
+        document.body.classList.remove('mobile-nav-open');
         document.body.style.overflow = '';
+        document.documentElement.style.overflow = '';
     });
 });
 
