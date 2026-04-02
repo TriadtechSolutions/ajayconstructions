@@ -1013,8 +1013,8 @@ img {
 }
 
 .social-icon {
-    width: 40px;
-    height: 40px;
+    width: clamp(36px, 5vw, 44px);
+    height: clamp(36px, 5vw, 44px);
     border-radius: 10px;
     background: var(--card);
     border: 1px solid var(--border);
@@ -1023,6 +1023,14 @@ img {
     justify-content: center;
     color: #6b7280;
     transition: all 0.3s ease;
+    flex-shrink: 0;
+}
+
+.social-icon svg {
+    display: block;
+    width: clamp(14px, 2vw, 18px);
+    height: clamp(14px, 2vw, 18px);
+    flex-shrink: 0;
 }
 
 .social-icon:hover {
