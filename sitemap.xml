@@ -1,33 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
 <url>
-  <loc>http://ajayconstructions.homes/index.html</loc>
-  <priority>0.7</priority>
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-04-08</lastmod>
+<loc>https://ajayconstructions.homes/index.html</loc>
+<priority>0.7</priority>
+<changefreq>monthly</changefreq>
+<lastmod>2026-04-08</lastmod>
 </url>
+
 <url>
-  <loc>http://ajayconstructions.homes/about.html</loc>
-  <priority>0.7</priority>
-  <changefreq>monthly</changefreq>
-  <lastmod>undefined-undefined-2026-04-08</lastmod>
+<loc>https://ajayconstructions.homes/about.html</loc>
+<priority>0.7</priority>
+<changefreq>monthly</changefreq>
+<lastmod>2026-04-08</lastmod>
 </url>
+
 <url>
-  <loc>http://ajayconstructions.homes/services.html</loc>
-  <priority>0.7</priority>
-  <changefreq>monthly</changefreq>
-  <lastmod>undefined-undefined-undefined-undefined-2026-04-08</lastmod>
+<loc>https://ajayconstructions.homes/services.html</loc>
+<priority>0.7</priority>
+<changefreq>monthly</changefreq>
+<lastmod>2026-04-08</lastmod>
 </url>
+
 <url>
-  <loc>http://ajayconstructions.homes/projects.html</loc>
-  <priority>0.7</priority>
-  <changefreq>monthly</changefreq>
-  <lastmod>undefined-undefined-undefined-undefined-undefined-undefined-2026-04-08</lastmod>
+<loc>https://ajayconstructions.homes/projects.html</loc>
+<priority>0.7</priority>
+<changefreq>monthly</changefreq>
+<lastmod>2026-04-08</lastmod>
 </url>
+
 <url>
-  <loc>http://ajayconstructions.homes/contact.html</loc>
-  <priority>0.7</priority>
-  <changefreq>monthly</changefreq>
-  <lastmod>undefined-undefined-undefined-undefined-undefined-undefined-undefined-undefined-2026-04-08</lastmod>
+<loc>https://ajayconstructions.homes/contact.html</loc>
+<priority>0.7</priority>
+<changefreq>monthly</changefreq>
+<lastmod>2026-04-08</lastmod>
 </url>
+
 </urlset>
